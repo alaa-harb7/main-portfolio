@@ -8,6 +8,20 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    num: "06",
+    category: "frontend",
+    title: "Social Media App",
+    description: "A web application that allows users to share their thoughts.",
+    stack: [
+      { name: "React.js" },
+      { name: "JavaScript" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/projects/thumb5.png",
+    live: "https://social-aobwiil4p-alaa-harb7s-projects.vercel.app/",
+    github: "https://github.com/alaa-harb7/social-app",
+  },
+  {
     num: "01",
     category: "frontend",
     title: "Frontend Project",
@@ -65,20 +79,6 @@ const projects = [
     live: "https://alaa-harb7.github.io/special-porfolio/",
     github: "https://github.com/alaa-harb7/special-porfolio",
   },
-  // {
-  //   num: "06",
-  //   category: "frontend",
-  //   title: "Fit Physique",
-  //   description: "A fitness-focused platform to track workouts and progress.",
-  //   stack: [
-  //     { name: "Next.js" },
-  //     { name: "TypeScript" },
-  //     { name: "TailwindCSS" },
-  //   ],
-  //   image: "/assets/projects/thumb5.png",
-  //   live: "https://fitphysique-pi.vercel.app/",
-  //   github: "https://github.com/solarluiso/fitphysique",
-  // },
 ];
 
 const Projects = () => {
