@@ -17,7 +17,7 @@ const projects = [
       { name: "JavaScript" },
       { name: "TailwindCSS" },
     ],
-    image: "/assets/projects/thumb5.png",
+    image: "/assets/projects/thumb7.png",
     live: "https://social-aobwiil4p-alaa-harb7s-projects.vercel.app/",
     github: "https://github.com/alaa-harb7/social-app",
   },
